@@ -14,7 +14,7 @@ class App(ctk.CTk):
         self.resizable(False,False)   
         f = ('Trebuchet MS',18,'bold') 
 
-        self.letreiro = ctk.CTkLabel(master=self,text='Calculadora LuDani',font=f)
+        self.letreiro = ctk.CTkLabel(master=self,text='Calculadora LuDani em CustomTkinter',font=f)
 
         # Letreiro valor
         self.lb_valor = ctk.CTkLabel(master=self,text='',font=f,width=215,height=50,fg_color='#3B3B3B',corner_radius=8, anchor='e')
