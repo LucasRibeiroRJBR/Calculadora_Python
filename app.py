@@ -88,28 +88,3 @@ class App(ctk.CTk):
 if __name__ == '__main__':
     App().mainloop()
 
-'''
-class Matematica():
-       
-    def __init__(self):
-        self.x = x
-        self.y = y
-    
-    def somar(self):
-        return (self.x - self.y)
-
-    def subtrai(self):
-        return (self.x - self.y)
-        
-    def multiplicar(self):
-        return (self.x * self.y)
-        
-    def dividir(self):
-        if self.x != 0:
-            return (self.x / self.y)
-        
-    def raizQuadrada(self):
-        return sqrt(self.x)
-
-    def exponencial(self): 
-        return pow(self.x, 2)'''
